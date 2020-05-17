@@ -1,0 +1,87 @@
+{
+  "basics": {
+    "name": "Gustavo Epichin Monjardim",
+    "label": "Software developer",
+    "picture": "./profile.jpeg",
+    "email": "gustavomonjardim7@gmail.com",
+    "phone": "+55 (27) 99802-4801",
+    "website": "https://gustavomonjardim.com",
+    "summary": "Software developer who is passionate about the JavaScript programming language and its ecosystem. I build frontend applications with technologies such as React, React Native, Jest and GraphQL.",
+    "location": {
+      "address": "Rua Guadalajra, 349/301, Santa Cecília",
+      "postalCode": "29043-237",
+      "city": "Vitória",
+      "countryCode": "BR",
+      "region": "Espírito Santo"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "gustavomonja",
+        "url": "https://twitter.com/gustavomonja"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Gustavo Epichin Monjardim",
+        "url": "https://linkedin.com/in/gustavo-epichin-monjardim-b4b57a180"
+      },
+      {
+        "network": "GitHub",
+        "username": "gustavomonjardim",
+        "url": "https://github.com/gustavomonjardim"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "LiftBank",
+      "position": "Front End Developer",
+      "startDate": "2019-05-01",
+      "summary": "Responsible for the architectural design and development of web applications with React and mobile applications with React Native. Using GraphQL to communicate with the backend, Jest and testing-library for automated tests, storybook for the elaboration of a component library and fastlane for automated releases."
+    },
+    {
+      "company": "VerboIn",
+      "position": "Front End Developer",
+      "startDate": "2018-09-01",
+      "endDate": "2019-04-30",
+      "summary": "Responsible for the architectural design and development of multiple front-end applications for a ticket sales platform. All applications were made with Vue.js. Electron was also used for Desktop applications. Mobile applications were developed with Quasar."
+    },
+    {
+      "company": "Laboratório de Biodiversidade de Insetos (UFES)",
+      "position": "Full stack Developer",
+      "startDate": "2018-04-01",
+      "endDate": "2018-08-30",
+      "summary": "Full-stack developer of a web application responsible for displaying interactive keys uploaded by researchers. The application was built with Express.js. MongoDB and Mongoose were used for managing data. The front-end of the application was built with the template engine Pug and JavaScript."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal do Espírito Santo",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2014-01-01",
+      "endDate": "2019-12-31"      
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Português",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ]
+}
