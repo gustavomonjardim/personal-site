@@ -13,6 +13,9 @@ const Home: React.FC = () => {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>{basics.summary}</p>
+        <a href="/resume.pdf" download>
+          Download
+        </a>
       </section>
       <section>
         <ul>

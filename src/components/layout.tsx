@@ -9,7 +9,7 @@ import styles from './layout.module.css';
 const name = 'Gustavo Monjardim';
 export const siteTitle = 'Next.js Sample Website';
 
-const Layout: React.FC = ({ children, home }) => {
+const Layout: React.FC<{ home?: boolean }> = ({ children, home = false }) => {
   return (
     <div className={styles.container}>
       <Head>
