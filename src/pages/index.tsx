@@ -7,7 +7,7 @@ import utilStyles from '../styles/utils.module.css';
 
 const Home: React.FC = () => {
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>{basics.name}</title>
       </Head>
