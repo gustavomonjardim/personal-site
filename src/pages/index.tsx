@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import Layout from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
+import Head from 'next/head';
+import React from 'react';
 
-import { basics, education, skills, work } from '../resume.json';
+import Layout from '../components/layout';
+import { basics, education, work } from '../resume.json';
+import utilStyles from '../styles/utils.module.css';
 
-
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{basics.name}</title>
       </Head>
@@ -16,11 +16,11 @@ export default function Home() {
       </section>
       <section>
         <ul>
-        {basics.profiles.map(profile => (
-          <li>
-            {`${profile.network} - ${profile.username}`}
-          </li>
-        ))}
+          {basics.profiles.map((profile) => (
+            <li key={profile.network}>
+              <a href={profile.url}>{`${profile.network} - ${profile.username}`}</a>
+            </li>
+          ))}
         </ul>
       </section>
 
@@ -47,5 +47,7 @@ export default function Home() {
         </ul>
       </section>
     </Layout>
-  )
-}
+  );
+};
+
+export default Home;
