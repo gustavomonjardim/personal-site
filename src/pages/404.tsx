@@ -1,13 +1,7 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-
 const Custom404: React.FC = () => {
-  return (
-    <Layout>
-      <h1>404 - Page Not Found</h1>
-    </Layout>
-  );
+  return <h1>404 - Page Not Found</h1>;
 };
 
 export default Custom404;
