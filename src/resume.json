@@ -6,7 +6,7 @@
     "email": "gustavomonjardim7@gmail.com",
     "phone": "+55 (27) 99802-4801",
     "website": "https://gustavomonjardim.com",
-    "summary": "Software developer who is passionate about the JavaScript programming language and its ecosystem. I build frontend applications with technologies such as React, React Native, Jest and GraphQL.",
+    "summary": "I'm a software developer passionate about the JavaScript programming language and its ecosystem. I build frontend applications with technologies such as React, React Native, Jest and GraphQL.",
     "location": {
       "address": "Rua Guadalajra, 349/301, Santa Cecília",
       "postalCode": "29043-237",
@@ -35,12 +35,15 @@
   "work": [
     {
       "company": "LiftBank",
+      "location": "Vitória - ES",
       "position": "Front End Developer",
       "startDate": "2019-05-01",
+      "skills": ["React", "React Native", "GraphQL", "Apollo Client", "Jest", "Testing Library", "Storybook"],
       "summary": "Responsible for the architectural design and development of web applications with React and mobile applications with React Native. Using GraphQL to communicate with the backend, Jest and testing-library for automated tests, storybook for the elaboration of a component library and fastlane for automated releases."
     },
     {
       "company": "VerboIn",
+      "location": "Vitória - ES",
       "position": "Front End Developer",
       "startDate": "2018-09-01",
       "endDate": "2019-04-30",
@@ -48,6 +51,7 @@
     },
     {
       "company": "Laboratório de Biodiversidade de Insetos (UFES)",
+      "location": "Vitória - ES",
       "position": "Full stack Developer",
       "startDate": "2018-04-01",
       "endDate": "2018-08-30",

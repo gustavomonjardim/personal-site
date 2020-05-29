@@ -15,7 +15,7 @@ const playwright = require('playwright');
     path: path.join(__dirname, '../', 'public/resume.pdf'),
     format: 'Letter',
     printBackground: true,
-    margin: { top: '20mm', left: '16mm', bottom: '20mm', right: '16mm' },
+    margin: { top: '14mm', left: '8mm', bottom: '14mm', right: '8mm' },
   });
   await browser.close();
 })();
